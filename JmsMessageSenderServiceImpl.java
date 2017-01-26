@@ -39,8 +39,7 @@ public class JmsMessageSenderServiceImpl implements JmsMessageSenderService {
 	
 	/** The queue factory. */
 	@Resource(name="factory", mappedName="java:jboss/client/jms/Factory")
-	QueueConnectionFactory queueFactory;
-	
+	QueueConnectionFactory queueFactory;	
 	
 	/**
 	 * Send message.
